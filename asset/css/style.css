@@ -1,0 +1,66 @@
+/* header & global */
+h1{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+h1, h2, h3{
+    text-align: center;
+}
+h2{
+    margin-top: 5rem;
+}
+h3{
+    margin-top: 0;
+}
+h1:hover , h2:hover{
+    color:  rgb(104, 43, 53);
+}
+p{
+    text-align: center;
+}
+
+
+/* menu nav */
+.list{
+    display: flex;
+    justify-content: center;
+}
+.list>li{
+    list-style: none;
+}
+.navigation{
+    text-decoration: none;
+    color: gray;
+    margin: 0px 30px;
+}
+.navigation:hover{
+    color: rgb(236, 116, 136);
+}
+
+/* partie pour mon profile */
+#monimg{
+    height: 15rem;
+    border-radius: 150px;
+    border-style: ridge;
+    border-width: 20px;
+    display: block;
+    margin: 3rem auto;
+}
+#monimg:hover{
+    border-color: rgb(233, 173, 183);
+}
+
+/* partie pour mes projets */
+.article>img{
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.btnarticle{
+
+}
+
+.btnarticle>a{
+    text-decoration: none;
+    text-align: center;
+}

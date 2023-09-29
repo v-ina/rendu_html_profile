@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio.html</title>
+    <link rel="stylesheet" href="asset/css/style.css">
 </head>
 
 <body>
@@ -15,11 +16,11 @@
 
     <!-- -----naviagation pour le site ----- -->
     <nav>
-        <ul>
-            <li><a href="#header">Accueil</a></li>
-            <li><a href="#about">A propos</a></li>
-            <li><a href="#projet">Projets</a></li>
-            <li><a href="#contact">Contact</a></li>
+        <ul class="list">
+            <li><a class="navigation" href="#header">Accueil</a></li>
+            <li><a class="navigation" href="#about">A propos</a></li>
+            <li><a class="navigation" href="#projet">Projets</a></li>
+            <li><a class="navigation" href="#contact">Contact</a></li>
         </ul>
     </nav>
 
@@ -27,7 +28,7 @@
 
         <!-- -----partie pour mon profile----- -->
         <section id="about">
-            <img height="200rem" src="asset/img/KakaoTalk_20230620_213716149_01.jpg" alt="image d'yeonsoo">
+            <img id="monimg" src="asset/img/KakaoTalk_20230620_213716149_01.jpg" alt="image d'yeonsoo">
             <p>Je suis une etudiante de la piscine a bordeaux depuis 2023 septembre</p>
             <p>je suis tres passionnee pour le web</p>
         </section>
@@ -35,23 +36,29 @@
         <!-- -----partie pour mes projets----- -->        
         <section id="projet">
             <h2>Projets</h2>
-            <article>
-                <h3>projet 1</h3>
+            <article class="article">
+                <h3> < projet 1 > </h3>
                 <img height="400rem" src="asset/img/captureecrant1.JPG" alt="projet de chaise">
                 <p>projet : site salon de chaise</p>
-                <a href="https://www.figma.com/file/kG8qqVYnjtUDWrjQ3aVlAX/Untitled?type=design&node-id=0-1&mode=design&t=orHhTKlvS3oqzy3x-0" target="_blank">aller voir site de chaise</a>
+                <div class="btnarticle">
+                    <a href="https://www.figma.com/file/kG8qqVYnjtUDWrjQ3aVlAX/Untitled?type=design&node-id=0-1&mode=design&t=orHhTKlvS3oqzy3x-0" target="_blank">aller voir site de chaise</a>
+                </div>    
             </article>
-            <article>
+            <article class="article">
                 <img height="400rem" src="asset/img/captureecrant2.JPG" alt="projet d'atelier">
-                <h3>projet 2</h3>
+                <h3> < projet 2 > </h3>
                 <p>projet : site d'artelier kang </p>
-                <a href="https://www.figma.com/file/NCBtCyIguRuRlHmMcRcySY/Untitled?type=design&mode=design&t=orHhTKlvS3oqzy3x-0" target="_blank">aller voir site d'atelier</a>            
+                <div class="btnarticle">
+                    <a href="https://www.figma.com/file/NCBtCyIguRuRlHmMcRcySY/Untitled?type=design&mode=design&t=orHhTKlvS3oqzy3x-0" target="_blank">aller voir site d'atelier</a>            
+                </div>
             </article>
-            <article>
+            <article class="article">
                 <img height="400rem" src="asset/img/captureecrant3.JPG" alt="projet d'uml">
-                <h3>projet 3</h3>
+                <h3> < projet 3 > </h3>
                 <p>projet : m'entrainer a l'uml </p>
-                <a href="https://app.diagrams.net/#G1w_I7MkhBu1ikNRgmW4SI3GWiRTVGnxea" target="_blank">aller voir site d'uml</a>              
+                <div class="btnarticle">
+                    <a class="btnarticle" href="https://app.diagrams.net/#G1w_I7MkhBu1ikNRgmW4SI3GWiRTVGnxea" target="_blank">aller voir site d'uml</a>              
+                </div>
             </article>
         </section>
 
